@@ -1,0 +1,276 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-28 09:56:29
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-30 10:33:39
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+	height: 74px;
+	background: white;
+}
+.top .con{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;	
+}
+.top img{
+	width: 190px;
+	height: 38px;
+	display: block;
+	margin: 18px  0;
+	cursor: pointer;
+}
+.top .main{
+	height: 48px;
+	line-height:48px;	
+	margin: 13px 0;
+	display: none;
+}
+.top .main a{
+	font-size:14px;
+	padding-right:20px; 
+	color:#595959 
+}
+.top .main a:nth-child(6){
+	padding-right:0px; 
+}
+.top .main a:nth-child(4){
+	color: #5ddffe;
+}
+.top .main a:hover{
+	color: #5ddffe;	
+	text-decoration: none;
+}
+.top .main a:active{
+	color: #5ddffe;
+}
+.top .phono{
+	height: 48px;
+	line-height:48px;
+	margin: 13px 0;
+	display: none;
+}
+.top .phono span{
+	font-size: 18px;
+   font-family: georgia;
+   color: #696969;
+}
+.top .phono i{
+	font-size: 20px;
+}
+.dh{
+	width: 100%;
+	height: 44px;
+	background: black;
+	text-align: center;
+	line-height: 44px;
+}
+.dh span{
+	font-size: 20px;
+	color: white;
+}
+.tu{
+	width: 100%;
+	height: 118px;
+	background-image: url('../img/21.png');
+	background-size: cover;
+	background-position: 0 0%;
+	/* background-color: rgba(38,212,239,0.7); */
+	position: relative;
+	overflow: hidden;
+}
+.background-color{
+	width: 100%;
+	height: 118px;
+	background-color:rgba(38,212,239,0.7);
+	position: absolute;
+	top:0px;
+	left: 0;
+	z-index: 3;
+}
+.tu .qfe{
+	height: 102px;
+	margin: 8px 0;
+	/* background-color: red; */
+}
+.tu .qfe .style{
+	overflow: hidden;
+    border-bottom-style: solid;
+    width: 64px;
+    max-width: 64px;
+    border-bottom-width: 6px;
+    border-bottom-color: #ffffff;
+    margin-left: 0px;
+    margin-bottom: 20px 
+}
+.tu .qfe h2{
+	font-family: 微软雅黑;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+    display: block;
+}
+.tu .qfe span{
+	font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    display: block;
+    padding: 10px 0 0 0;
+}
+.section{
+	height: 100%;
+	/* background: red; */
+}
+.section ul li{
+	padding: 35px 20px 35px;
+}
+.section img{
+	width: 140px;
+	height: 140px;
+	display: block;
+	border-radius: 50%;
+}
+/*.section .dd{*/
+	/*width: 100px;*/
+	/*height: 22px;*/
+	/*!* background: orange; *!*/
+	/*margin:170px auto 0 ;*/
+	/*display: none;*/
+	/*cursor: pointer;*/
+/*}*/
+/*.section .dd .one{*/
+	/*width: 10px;*/
+    /*height: 10px;*/
+    /*display: inline-block;*/
+    /*background-color: #ccc;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 50%;*/
+/*}*/
+/*.section .dd .two{*/
+	/*width: 10px;*/
+    /*height: 10px;*/
+    /*display: inline-block;*/
+    /*background-color: #f2f2f2;*/
+    /*border: 1px solid #f2f2f2;*/
+    /*border-radius: 50%;*/
+/*}*/
+/*.section .dd .two:hover{*/
+	/*background-color: #ccc;*/
+/*}*/
+.bottom{
+	width: 100%;
+	height:282px;
+	background: #2d3237; s
+}
+.bottom .ner{
+	width: 100%;
+	height: 189px;
+	/* background: orange; */
+	margin: 46px 0;
+}
+.bottom  dl{
+	width: 189px;
+	height: 100%;
+	/* background: red; */
+	float: left;
+	margin-right: 5px;
+}
+.bottom dl dt{
+	font-size: 20px;
+	color: white;
+	font-weight: 200;
+}
+.bottom  dd{
+	/* display: block; */
+	font-size: 15px;
+	color: #808080;
+	padding-top: 10px;
+}
+.bottom .ptc{
+	width: 43px;
+	height: 44px;
+	display: block;
+}
+.bottom  span{
+	font-size: 13px;
+	display: block
+}
+.bottom  .no{
+	display: none;
+}
+.foot{
+	width: 100%;
+	height: 51px;
+	background: #2d3237;
+}
+.foot .bot{
+	height: 41px;
+	margin: 5px 0;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+@media screen  and (min-width: 768px){
+
+}
+@media screen  and (min-width: 992px) {
+	.top .main {
+		display: inline;
+	}
+
+	.top .phono {
+		display: inline;
+	}
+
+	.dh {
+		display: none;
+	}
+
+	.tu {
+		width: 100%;
+		height: 240px;
+		background-image: url('../img/21.png');
+		background-size: cover;
+		background-position: 0 0%;
+		/* background-color: rgba(38,212,239,0.7); */
+		position: relative;
+		overflow: hidden;
+
+	}
+
+	.background-color {
+		width: 100%;
+		height: 240px;
+		background-color: rgba(38, 212, 239, 0.7);
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.tu .qfe {
+		height: 102px;
+		margin: 69px auto;
+		/* background-color: red; */
+	}
+
+	.bottom .no {
+		display: inline;
+	}
+}
+ @media screen  and (min-width: 1200px){
+
+ }
